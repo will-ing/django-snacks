@@ -1,0 +1,65 @@
+*{
+
+    margin: 0
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+
+
+}
+
+header ul li{
+
+    align-self: center;
+    display: flex;
+    margin: 1em;
+}
+
+main{
+    display: flex;
+    flex-flow: column;
+    background: #D0E4F5 url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSj9kwdFsi7pfCyGYZoKy7hFYpN0AP0wgjthO3QYjc39hOOGssW") no-repeat scroll 50% 10%;
+    height: 70vh;
+
+
+}
+
+main h1{
+    display: flex;
+    justify-content: center;
+}
+
+main p{
+    display: flex;
+    justify-content: space-around;
+    color: crimson;
+}
+
+
+
+#will{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 2em 3em;
+    background-color: #D5E1DB;
+    border: 3px solid #333634;
+}
+
+#will h2{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+#will p{
+    display: flex;
+    justify-items: center;
+}
